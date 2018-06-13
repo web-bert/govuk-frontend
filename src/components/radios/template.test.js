@@ -223,6 +223,7 @@ describe('Radios', () => {
       const $lastConditional = $component.find('.govuk-radios__conditional').last()
       expect($lastConditional.attr('id')).toBe('conditional-example-conditional-2')
       expect($lastConditional.html()).toContain('Conditional content')
+      expect($lastConditional.hasClass('is-hidden')).toBeTrue()
     })
   })
 
