@@ -280,6 +280,7 @@ describe('Checkboxes', () => {
     const $lastConditional = $component.find('.govuk-checkboxes__conditional').last()
     expect($lastConditional.attr('id')).toBe('conditional-example-conditional-2')
     expect($lastConditional.html()).toContain('Conditional content')
+    expect($lastConditional.hasClass('is-hidden')).toBeTrue()
   })
 
   describe('when they include an error message', () => {
