@@ -243,6 +243,10 @@ Note: We're not following semantic versioning yet, we are going to talk about th
 
 - Add explicit dependency on colour maps
   ([PR #790](https://github.com/alphagov/govuk-frontend/pull/790))
+  
+- Add notice about the use of `html` arguments in Nunjucks macros for production
+  ([PR #785](https://github.com/alphagov/govuk-frontend/pull/785))
+
 
 🆕 New features:
 
